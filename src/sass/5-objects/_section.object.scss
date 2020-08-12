@@ -1,0 +1,7 @@
+.o-section {
+	padding: $spacing-larger 0;
+
+  @include respond(tab-land) { 
+    padding: $spacing-largest 0;
+  }
+}

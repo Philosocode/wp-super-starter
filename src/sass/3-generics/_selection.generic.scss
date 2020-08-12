@@ -1,0 +1,15 @@
+$selection-color: $color-green;
+
+::selection {
+  background: $selection-color;
+  background: rgba($selection-color, 0.3);
+}
+
+::-moz-selection {
+  background: $selection-color;
+  background: rgba($selection-color, 0.3);
+}
+
+* {
+  -webkit-tap-highlight-color: rgba($selection-color, 0.2);
+}

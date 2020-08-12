@@ -1,0 +1,27 @@
+$font-fallbacks: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, sans-serif;
+
+$font-primary: "Avenir Next", Avenir, $font-fallbacks;
+$font-secondary: "Open Sans", $font-fallbacks;
+
+// FROM: https://type-scale.com/
+$multiplier: 1.414;
+
+$font-size-small: 1.4rem;
+$font-size-smaller: 1.2rem;
+$font-size-smallest: 1rem;
+
+$font-size-normal: 1.6rem;
+$font-size-normal-big: 1.8rem;
+
+$font-size-medium: calc(#{$font-size-normal} * #{$multiplier});
+
+$font-size-large: calc(#{$font-size-medium} * #{$multiplier});
+$font-size-larger: calc(#{$font-size-large} * #{$multiplier});
+$font-size-largest: calc(#{$font-size-larger} * #{$multiplier});
+
+$font-size-mega: calc(#{$font-size-largest} * #{$multiplier});
+
+$font-size-title-large: calc(#{$font-size-mega} * #{$multiplier});
+$font-size-title-larger: calc(#{$font-size-title-large} * #{$multiplier});
+$font-size-title-largest: calc(#{$font-size-title-larger} * #{$multiplier});
